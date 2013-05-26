@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  RoutingClient
+
+  Created by Nightcrawler on 5/25/13.
+  Copyright (c) 2013 EKDevelopment. All rights reserved.
+*/
+
+"HTTPServiceRequestTimedOut" = "Service request timed out. Try again";
+"HTTPServerRequireAuth" = "The server requires authentication. Please verify the server name is valid";
+"HTTPService​NotFound" = "There is no hosted upload service on the server. Please verify the server name";
+"HTTPServerUnexpectedCondition" = "Server encountered an unexpected condition which prevented it from fulfilling the request";
+"HTTPServerNotResolved" = "The server name could not be resolved. Please verify the server name";
+"HTTPConnectionFailed" = "Connection Failed. Please check your internet connection";
+"HTTPUnknownError" = "Unknown network error";

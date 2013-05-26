@@ -26,6 +26,14 @@
 		092AFCF717519E9E006CC58E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092AFCF517519E9E006CC58E /* InfoPlist.strings */; };
 		092AFCFA17519E9E006CC58E /* RoutingClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFCF917519E9E006CC58E /* RoutingClientTests.m */; };
 		092AFD081751A995006CC58E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD071751A995006CC58E /* MapViewController.m */; };
+		092AFD181751B282006CC58E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092AFD171751B282006CC58E /* Localizable.strings */; };
+		092AFD231751B717006CC58E /* BaseServiceRequestDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD1B1751B717006CC58E /* BaseServiceRequestDispatcher.m */; };
+		092AFD241751B717006CC58E /* DataRequestDelegateAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD1D1751B717006CC58E /* DataRequestDelegateAdapter.m */; };
+		092AFD251751B717006CC58E /* HttpErrorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD1F1751B717006CC58E /* HttpErrorManager.m */; };
+		092AFD261751B717006CC58E /* JSONRequestDelegateAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD211751B717006CC58E /* JSONRequestDelegateAdapter.m */; };
+		092AFD291751BA51006CC58E /* DictionaryRequestDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD281751BA51006CC58E /* DictionaryRequestDispatcher.m */; };
+		092AFD2C1751BAB2006CC58E /* GeolocationDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD2B1751BAB2006CC58E /* GeolocationDispatcher.m */; };
+		092AFD2F1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092AFD2E1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +74,22 @@
 		092AFCF917519E9E006CC58E /* RoutingClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingClientTests.m; sourceTree = "<group>"; };
 		092AFD061751A995006CC58E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		092AFD071751A995006CC58E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		092AFD171751B282006CC58E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		092AFD1A1751B717006CC58E /* BaseServiceRequestDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServiceRequestDispatcher.h; sourceTree = "<group>"; };
+		092AFD1B1751B717006CC58E /* BaseServiceRequestDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServiceRequestDispatcher.m; sourceTree = "<group>"; };
+		092AFD1C1751B717006CC58E /* DataRequestDelegateAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequestDelegateAdapter.h; sourceTree = "<group>"; };
+		092AFD1D1751B717006CC58E /* DataRequestDelegateAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequestDelegateAdapter.m; sourceTree = "<group>"; };
+		092AFD1E1751B717006CC58E /* HttpErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpErrorManager.h; sourceTree = "<group>"; };
+		092AFD1F1751B717006CC58E /* HttpErrorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpErrorManager.m; sourceTree = "<group>"; };
+		092AFD201751B717006CC58E /* JSONRequestDelegateAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRequestDelegateAdapter.h; sourceTree = "<group>"; };
+		092AFD211751B717006CC58E /* JSONRequestDelegateAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRequestDelegateAdapter.m; sourceTree = "<group>"; };
+		092AFD221751B717006CC58E /* RequestDispatcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDispatcherDelegate.h; sourceTree = "<group>"; };
+		092AFD271751BA50006CC58E /* DictionaryRequestDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryRequestDispatcher.h; sourceTree = "<group>"; };
+		092AFD281751BA51006CC58E /* DictionaryRequestDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryRequestDispatcher.m; sourceTree = "<group>"; };
+		092AFD2A1751BAB2006CC58E /* GeolocationDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeolocationDispatcher.h; sourceTree = "<group>"; };
+		092AFD2B1751BAB2006CC58E /* GeolocationDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocationDispatcher.m; sourceTree = "<group>"; };
+		092AFD2D1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeolocationDispatcherIntegrationTests.h; sourceTree = "<group>"; };
+		092AFD2E1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocationDispatcherIntegrationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +149,7 @@
 		092AFCC017519E9E006CC58E /* RoutingClient */ = {
 			isa = PBXGroup;
 			children = (
+				092AFD091751B0D3006CC58E /* Services */,
 				092AFCC917519E9E006CC58E /* AppDelegate.h */,
 				092AFCCA17519E9E006CC58E /* AppDelegate.m */,
 				092AFCD217519E9E006CC58E /* MainStoryboard_iPhone.storyboard */,
@@ -150,6 +175,7 @@
 				092AFCCC17519E9E006CC58E /* Default.png */,
 				092AFCCE17519E9E006CC58E /* Default@2x.png */,
 				092AFCD017519E9E006CC58E /* Default-568h@2x.png */,
+				092AFD171751B282006CC58E /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,6 +185,8 @@
 			children = (
 				092AFCF817519E9E006CC58E /* RoutingClientTests.h */,
 				092AFCF917519E9E006CC58E /* RoutingClientTests.m */,
+				092AFD2D1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.h */,
+				092AFD2E1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.m */,
 				092AFCF317519E9E006CC58E /* Supporting Files */,
 			);
 			path = RoutingClientTests;
@@ -171,6 +199,34 @@
 				092AFCF517519E9E006CC58E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		092AFD091751B0D3006CC58E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				092AFD191751B717006CC58E /* Framework */,
+				092AFD2A1751BAB2006CC58E /* GeolocationDispatcher.h */,
+				092AFD2B1751BAB2006CC58E /* GeolocationDispatcher.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		092AFD191751B717006CC58E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				092AFD1A1751B717006CC58E /* BaseServiceRequestDispatcher.h */,
+				092AFD1B1751B717006CC58E /* BaseServiceRequestDispatcher.m */,
+				092AFD271751BA50006CC58E /* DictionaryRequestDispatcher.h */,
+				092AFD281751BA51006CC58E /* DictionaryRequestDispatcher.m */,
+				092AFD1C1751B717006CC58E /* DataRequestDelegateAdapter.h */,
+				092AFD1D1751B717006CC58E /* DataRequestDelegateAdapter.m */,
+				092AFD201751B717006CC58E /* JSONRequestDelegateAdapter.h */,
+				092AFD211751B717006CC58E /* JSONRequestDelegateAdapter.m */,
+				092AFD221751B717006CC58E /* RequestDispatcherDelegate.h */,
+				092AFD1E1751B717006CC58E /* HttpErrorManager.h */,
+				092AFD1F1751B717006CC58E /* HttpErrorManager.m */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +306,7 @@
 				092AFCD117519E9E006CC58E /* Default-568h@2x.png in Resources */,
 				092AFCD417519E9E006CC58E /* MainStoryboard_iPhone.storyboard in Resources */,
 				092AFCD717519E9E006CC58E /* MainStoryboard_iPad.storyboard in Resources */,
+				092AFD181751B282006CC58E /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +346,12 @@
 				092AFCDA17519E9E006CC58E /* CustomerViewController.m in Sources */,
 				092AFCE117519E9E006CC58E /* NewAddressViewController.m in Sources */,
 				092AFD081751A995006CC58E /* MapViewController.m in Sources */,
+				092AFD231751B717006CC58E /* BaseServiceRequestDispatcher.m in Sources */,
+				092AFD241751B717006CC58E /* DataRequestDelegateAdapter.m in Sources */,
+				092AFD251751B717006CC58E /* HttpErrorManager.m in Sources */,
+				092AFD261751B717006CC58E /* JSONRequestDelegateAdapter.m in Sources */,
+				092AFD291751BA51006CC58E /* DictionaryRequestDispatcher.m in Sources */,
+				092AFD2C1751BAB2006CC58E /* GeolocationDispatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092AFCFA17519E9E006CC58E /* RoutingClientTests.m in Sources */,
+				092AFD2F1751BCAF006CC58E /* GeolocationDispatcherIntegrationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
